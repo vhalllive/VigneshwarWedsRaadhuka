@@ -143,19 +143,39 @@
 						margin-bottom: 0px;" class="">Watch Live</h2>
 					</div>
 				</div>
-				<div class="text-center containers">
-					<iframe class="responsive-iframe" src="https://s3.amazonaws.com/vhall.live/invitation.mp4"></iframe>
-
+				<!-- <div class="text-center containers"> -->
+					<!-- <iframe class="responsive-iframe" src="https://s3.amazonaws.com/vhall.live/invitation.mp4"></iframe> -->
+          <script type='text/javascript' src='../../../cdn.jwplayer.com/libraries/cKY5REJu.js'></script><br />
+			<script type="text/javascript">jwplayer.key="Bc0mi3cZYJX9qF0RbAfEb3uQmbJYjO9LPpTZdOw5frI=";</script></p>
+			<div id='MediaPlayerMiniPlayer'>Loading&#8230;</div>
+			<p><script type='text/javascript'>
+				jwplayer('MediaPlayerMiniPlayer').setup({
+			 sources: [
+					 {file: "https://5dcab84ba4f36.streamlock.net/dvr/ramesh/playlist.m3u8"},
+				 {file: "rtmp://5dcab84ba4f36.streamlock.net/dvr/ramesh"}
+					],
+			 rtmp: {
+				bufferlength: 3,
+			 },
+			 'autostart': 'false',
+			 'width': '100%',
+			 'aspectratio': '16:9',
+			 'height': '270',
+			 'fallback': false,
+			 'androidhls': true,
+			 'primary': 'html5'
+			 });
+			</script>
 
 
 
 				</div>
-				<div class="text-center containers">
+				<!-- <div class="text-center containers">
 					<img class="responsive-iframe" style="padding-top: 50px;" src="images/wedposter.jpg" >
 
 
 
-				</div>
+				</div> -->
 				</div>
 		</div>
 	</div>
